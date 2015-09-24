@@ -48,8 +48,9 @@ a:hover{
 .tree{
   background-image: url(images/background.jpg);
   background-size: cover;
-  height: 400px;
-  overflow: auto;
+  background-position: 10% 20%;
+  height: 400px; /*do not touch*/
+  overflow: hidden;
 
 
 }
