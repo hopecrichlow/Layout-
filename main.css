@@ -48,5 +48,14 @@ a:hover{
 .tree{
   background-image: url(images/background.jpg);
   background-size: cover;
+  height: 400px;
   overflow: auto;
+
+
 }
+.slogan{
+  color:white;
+  display: inline-block;
+  vertical-align: middle;
+}
+/*TREE GRAPHIC*/
