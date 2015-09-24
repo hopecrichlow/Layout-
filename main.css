@@ -1,13 +1,11 @@
 body{
   margin: 0;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
-.page-header{
-
-}
+/*Page Header. DO NOT FUCKING TOUCH*/
 .navigation{
-  margin:10px;
+  margin:0px;
   padding:0;
 }
 ul{
@@ -16,12 +14,18 @@ ul{
   padding: 7px 15px;
 }
 a{
-  font: 20px,'Open Sans', sans-serif;
+  font-family:'Open Sans: 400', sans-serif;
+  margin-right: 34px;
 }
 a:link{
-  color: #95999e;
+  color: #777777;
+  text-decoration: none;
 }
 a:visited{
+  color: #777777;
+}
+a:hover{
   color: #3c3c3c;
 }
+
 
