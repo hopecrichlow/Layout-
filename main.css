@@ -1,7 +1,14 @@
 body{
   margin: 0;
   background-color: #f2f2f2;
+  font-family:'Open Sans: 400', sans-serif;
+  /*color a little off fix later*/
 }
+
+.img{
+  max-width: 100%;
+}
+
 
 /*Page Header. DO NOT FUCKING TOUCH*/
 .page-header{
@@ -22,7 +29,6 @@ ul{
   padding: 7px 15px;
 }
 a{
-  font-family:'Open Sans: 400', sans-serif;
   margin-right: 27px;
 }
 a:link{
@@ -35,5 +41,12 @@ a:visited{
 a:hover{
   color: black;
 }
+/*HEADER END*/
 
 
+/*TREE GRAPHIC*/
+.tree{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  overflow: auto;
+}
