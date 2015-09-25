@@ -51,12 +51,15 @@ a:hover{
   background-position: 10% 20%;
   height: 400px; /*do not touch*/
   overflow: hidden;
-
-
+  position: relative;
 }
 .slogan{
   color:white;
-  display: inline-block;
+  text-align: center;
+  max-width: 100%;
   vertical-align: middle;
+  position: absolute;
+  top: 175px;
+  left: 600px;
 }
 /*TREE GRAPHIC*/
