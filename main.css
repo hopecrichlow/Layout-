@@ -23,7 +23,7 @@ a.logo{
   padding:0;
   display: inline-block;
 }
-ul{
+.navigation ul{
   list-style: none;
   margin: 0;
   padding: 7px 15px;
@@ -54,7 +54,7 @@ a:hover{
   position: relative;
 }
 .slogan{
-  color:white;
+  color: white;
   font-size: 300%;
   text-shadow: 1px 1px #000000;
   max-width: 100%;
@@ -66,3 +66,56 @@ a:hover{
   position: absolute;
 }
 /*TREE GRAPHIC*/
+
+
+/*PACKAGES*/
+.middle{
+  max-width: 100%;
+  padding: 70px;
+
+}
+ul{
+  list-style: none;
+  max-width: 100%;
+}
+
+.center{
+  list-style: none;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+}
+.package1{
+  background-color: #519251;
+  width: 310px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 48px;
+  padding: 1px;
+
+}
+.package2{
+  background-color: #2C4985;
+  width: 310px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 48px;
+  padding: 1px;
+}
+.package3{
+  background-color: #000000;
+  width: 310px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 48px;
+  padding: 1px;
+}
+.name{
+}
+/*PACKAGES*/
