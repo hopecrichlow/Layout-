@@ -1,10 +1,12 @@
 body{
   margin: 0;
-  background-color: #f2f2f2;
+  background-color: #FFFFFF;
   font-family:'Open Sans: 400', sans-serif;
   /*color a little off fix later*/
 }
-
+li{
+  list-style: none;
+}
 .img{
   max-width: 100%;
 }
@@ -58,8 +60,8 @@ a:hover{
   font-size: 300%;
   text-shadow: 1px 1px #000000;
   max-width: 100%;
-  top: 35%;
-  left: 33%;
+  top: 36%;
+  left: 34%;
   bottom: 30%;
   text-align: center;
   vertical-align: middle;
@@ -69,53 +71,70 @@ a:hover{
 
 
 /*PACKAGES*/
+
 .middle{
   max-width: 100%;
-  padding: 70px;
-
-}
-ul{
-  list-style: none;
-  max-width: 100%;
-}
-
-.center{
-  list-style: none;
-  vertical-align: middle;
   display: inline-block;
-  max-width: 100%;
+  margin-top: 4%;
+  margin-left: 14%;
 }
-.package1{
+div.package{
+  width: 310px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+
+.color-block1{
   background-color: #519251;
-  width: 310px;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 20px;
-  margin-left: 48px;
-  padding: 1px;
-
+  display: block;
 }
-.package2{
+.color-block2{
   background-color: #2C4985;
-  width: 310px;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 20px;
-  margin-left: 48px;
-  padding: 1px;
+  display: block;
 }
-.package3{
+.color-block3{
   background-color: #000000;
-  width: 310px;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 20px;
-  margin-left: 48px;
-  padding: 1px;
+  display: block;
 }
+
+
 .name{
+  color: white;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding-top: 10%;
+  margin-top: 0;
+  margin-bottom: 0px;
 }
+.price{
+  color: white;
+  font-size: 600%;
+  margin: 0px;
+}
+.month{
+  color: hsla(0, 0%, 100%, .5);
+  opacity: 0.4px;
+  font-size: 115%;
+  letter-spacing: .5px;
+  padding-bottom: 10%;
+  margin: 0;
+}
+.features{
+  width: 310px;
+  background-color: #F7F7F7;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+.features p{
+  margin-top: 0;
+  max-height: 3%;
+  vertical-align: middle;
+  /*margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 6%;
+  padding-bottom: 2%;*/
+}
+/*FEATURES*/
 /*PACKAGES*/
