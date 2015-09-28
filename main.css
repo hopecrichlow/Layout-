@@ -77,6 +77,7 @@ a:hover{
   display: inline-block;
   margin-top: 4%;
   margin-left: 14%;
+  margin-right: 14%;
 }
 div.package{
   width: 310px;
@@ -84,21 +85,28 @@ div.package{
   text-align: center;
   vertical-align: middle;
   margin-right: 13px;
+  border: 10px;
+  border-color: red;
 }
 
 .color-block1{
+  max-width: 100%;
   background-color: #519251;
   display: block;
+  border: 1px solid #D7DAD7
 }
 .color-block2{
+  max-width: 100%;
   background-color: #2C4985;
   display: block;
+  border: 1px solid #D7DAD7
 }
 .color-block3{
+  max-width: 100%;
   background-color: #000000;
   display: block;
+  border: 1px solid #D7DAD7
 }
-
 
 .name{
   color: white;
@@ -121,20 +129,73 @@ div.package{
   padding-bottom: 10%;
   margin: 0;
 }
+/*FEATURES*/
 .features{
-  width: 310px;
+  max-width: 100%;
   background-color: #F7F7F7;
   padding-top: 6%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+  border: 1px solid #D7DAD7
 }
 .features p{
   margin-top: 0;
   max-height: 3%;
   vertical-align: middle;
-  /*margin-top: 0;
+  padding-bottom: 3%;
+}
+.last{
   margin-bottom: 1%;
-  padding-top: 6%;
-  padding-bottom: 2%;*/
 }
 /*FEATURES*/
+
+li.choose {
+  border: 1px solid #D7DAD7;
+  background: #fff;
+  padding: 8%;
+}
+
+li.choose button {
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 6%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-weight: bold;
+}
 /*PACKAGES*/
+
+/*INFORMATION*/
+.info{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 4%;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+li .info{
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+}
+.column{
+  float: left;
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 0;
+  margin-bottom: -2.25%;
+  padding-left: 2%;
+  padding-right: 7%;
+  padding-bottom: 0;
+}
+.column h3 {
+  color: #060606;
+  letter-spacing: 4px;
+}
+.info p {
+  line-height: 160%;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+/*INFORMATION*/
