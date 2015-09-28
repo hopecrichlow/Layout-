@@ -71,7 +71,6 @@ a:hover{
 
 
 /*PACKAGES*/
-
 .middle{
   max-width: 100%;
   display: inline-block;
@@ -84,9 +83,8 @@ div.package{
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  margin-right: 13px;
-  border: 10px;
-  border-color: red;
+  margin-right: 7.5px;
+  margin-left: 0;
 }
 
 .color-block1{
@@ -129,7 +127,7 @@ div.package{
   padding-bottom: 10%;
   margin: 0;
 }
-/*FEATURES*/
+  /*FEATURES*/
 .features{
   max-width: 100%;
   background-color: #F7F7F7;
@@ -146,15 +144,16 @@ div.package{
 .last{
   margin-bottom: 1%;
 }
-/*FEATURES*/
+  /*FEATURES*/
 
-li.choose {
+  /*BUTTON*/
+li.choose{
   border: 1px solid #D7DAD7;
   background: #fff;
   padding: 8%;
 }
 
-li.choose button {
+li.choose button{
   background: #fff;
   border: 1px solid #D8D8D8;
   border-radius: 20px;
@@ -163,6 +162,7 @@ li.choose button {
   padding-bottom: 2%;
   font-weight: bold;
 }
+  /*BUTTON*/
 /*PACKAGES*/
 
 /*INFORMATION*/
@@ -184,18 +184,33 @@ li .info{
   display: inline-block;
   max-width: 40%;
   margin-top: 0;
-  margin-bottom: -2.25%;
+  margin-bottom: -2%;
   padding-left: 2%;
-  padding-right: 7%;
+  padding-right: 8%;
   padding-bottom: 0;
 }
-.column h3 {
+.column h3{
   color: #060606;
   letter-spacing: 4px;
 }
-.info p {
+.info p{
   line-height: 160%;
   font-size: 15px;
   letter-spacing: 1px;
 }
 /*INFORMATION*/
+
+/*FOOTER*/
+.Unsplash{
+  margin-top: 1%;
+  text-align: center;
+  background: #000;
+  color: #7D7D7D;
+  padding: 26px;
+}
+
+.Unsplash a{
+  color: #fff;
+  text-decoration: underline;
+}
+/*FOOTER*/
