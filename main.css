@@ -1,0 +1,216 @@
+body{
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family:'Open Sans: 400', sans-serif;
+  /*color a little off fix later*/
+}
+li{
+  list-style: none;
+}
+.img{
+  max-width: 100%;
+}
+
+
+/*Page Header. DO NOT FUCKING TOUCH*/
+.page-header{
+  margin: 0 14px;
+}
+a.logo{
+  font-size:16px;
+  font-color: gray;
+}
+.navigation{
+  margin:0px;
+  padding:0;
+  display: inline-block;
+}
+.navigation ul{
+  list-style: none;
+  margin: 0;
+  padding: 7px 15px;
+}
+a{
+  margin-right: 27px;
+}
+a:link{
+  color: #777777;
+  text-decoration: none;
+}
+a:visited{
+  color: #777777;
+}
+a:hover{
+  color: black;
+}
+/*HEADER END*/
+
+
+/*TREE GRAPHIC*/
+.tree{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: 10% 20%;
+  height: 400px; /*do not touch*/
+  overflow: hidden;
+  position: relative;
+}
+.slogan{
+  color: white;
+  font-size: 300%;
+  text-shadow: 1px 1px #000000;
+  max-width: 100%;
+  top: 36%;
+  left: 34%;
+  bottom: 30%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+}
+/*TREE GRAPHIC*/
+
+
+/*PACKAGES*/
+.middle{
+  max-width: 100%;
+  display: inline-block;
+  margin-top: 4%;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+div.package{
+  width: 310px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 7.5px;
+  margin-left: 0;
+}
+
+.color-block1{
+  max-width: 100%;
+  background-color: #519251;
+  display: block;
+  border: 1px solid #D7DAD7
+}
+.color-block2{
+  max-width: 100%;
+  background-color: #2C4985;
+  display: block;
+  border: 1px solid #D7DAD7
+}
+.color-block3{
+  max-width: 100%;
+  background-color: #000000;
+  display: block;
+  border: 1px solid #D7DAD7
+}
+
+.name{
+  color: white;
+  font-size: 100%;
+  letter-spacing: 4px;
+  padding-top: 10%;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.price{
+  color: white;
+  font-size: 600%;
+  margin: 0px;
+}
+.month{
+  color: hsla(0, 0%, 100%, .5);
+  opacity: 0.4px;
+  font-size: 115%;
+  letter-spacing: .5px;
+  padding-bottom: 10%;
+  margin: 0;
+}
+  /*FEATURES*/
+.features{
+  max-width: 100%;
+  background-color: #F7F7F7;
+  padding-top: 6%;
+  padding-bottom: 1%;
+  border: 1px solid #D7DAD7
+}
+.features p{
+  margin-top: 0;
+  max-height: 3%;
+  vertical-align: middle;
+  padding-bottom: 3%;
+}
+.last{
+  margin-bottom: 1%;
+}
+  /*FEATURES*/
+
+  /*BUTTON*/
+li.choose{
+  border: 1px solid #D7DAD7;
+  background: #fff;
+  padding: 8%;
+}
+
+li.choose button{
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 6%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-weight: bold;
+}
+  /*BUTTON*/
+/*PACKAGES*/
+
+/*INFORMATION*/
+.info{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 4%;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+li .info{
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+}
+.column{
+  float: left;
+  display: inline-block;
+  max-width: 40%;
+  margin-top: 0;
+  margin-bottom: -2%;
+  padding-left: 2%;
+  padding-right: 8%;
+  padding-bottom: 0;
+}
+.column h3{
+  color: #060606;
+  letter-spacing: 4px;
+}
+.info p{
+  line-height: 160%;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+/*INFORMATION*/
+
+/*FOOTER*/
+.Unsplash{
+  margin-top: 1%;
+  text-align: center;
+  background: #000;
+  color: #7D7D7D;
+  padding: 26px;
+}
+
+.Unsplash a{
+  color: #fff;
+  text-decoration: underline;
+}
+/*FOOTER*/
